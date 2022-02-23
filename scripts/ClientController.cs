@@ -15,12 +15,12 @@ public class ClientController : Node
 		}
 		instance = this;
 
-		// Set the endpoint to connect the client to
-		Client.ip = "127.0.0.1";
-		Client.port = "24476";
+		// // Set the endpoint to connect the client to
+		// Client.ip = "127.0.0.1";
+		// Client.port = "24476";
 
-		// Start client
-		Client.StartClient();
+		// // Start client
+		// Client.StartClient();
 	}
 
 	public override void _Process(float delta)
